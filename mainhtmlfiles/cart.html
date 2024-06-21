@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart-Dukaa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+    ">
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <img src="allimages/Dukaa.png" width="125px" alt="00" />
+          </a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="#contacts">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img src="allimages/cart.png" alt="00" width="30px" height="30px" />
+        </a>
+        <img src="allimages/menu.png" class="menu-icon" alt="00" onclick="menutoggle()" />
+      </div>
+    </div>
+    <!------------cart items details-->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="allimages/buy-1.jpg" alt="00" />
+              <div>
+                <p>Red Printed Tshirt</p>
+                <small>Price: 400Ksh</small>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>400Ksh</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="allimages/buy-2.jpg" alt="00" />
+              <div>
+                <p>X 101s</p>
+                <small>Price:3500Ksh</small>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>3500Ksh</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="allimages/buy-3.jpg" alt="00" />
+              <div>
+                <p>Grey Sweatpants</p>
+                <small>Price:1000Ksh</small>
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>1000Ksh</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>4900Ksh</td>
+          </tr>
+          <tr>
+            <td>VAT</td>
+            <td>200Ksh</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>5100Ksh</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!--------footer-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Dowload our app</h3>
+            <p>Dowload our app for ios and android</p>
+            <div class="app-logo">
+              <img src="allimages/play-store.png" alt="00" />
+              <img src="allimages/app-store.png" alt="00" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="allimages/Dukaa.png" alt="" />
+            <p>Dont hustle Dukaa is here for you</p>
+          </div>
+          
+          <div class="footer-col-3">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+            </ul>
+            <p>All @Dukaa</p>
+          </div>
+          <footer id="contacts">
+          <div class="footer-col-4">
+            <h3>Reach out to us</h3>
+            Email: Dukaa.gmail.com <br>
+            Phone: 0734526784
+          </footer>
+
+
+          </div>
+        </div>
+        <hr />
+        <p class="Copyright">Copyright 2024- Dukaa</p>
+      </div>
+    </div>
